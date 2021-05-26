@@ -1,0 +1,7 @@
+# ignore .git 
+.git
+.cache
+
+# no need for readme
+README.md
+
