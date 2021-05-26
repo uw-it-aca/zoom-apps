@@ -101,5 +101,3 @@ ENV/
 .mypy_cache/
 
 #For this project
-iam-linkbot/
-linkconfig.py

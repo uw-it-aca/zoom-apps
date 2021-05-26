@@ -2,7 +2,6 @@ FROM python:3.6 as base
 RUN apt-get -y update
 WORKDIR /www/
 ENV PYTHONUNBUFFERED 1
-docker pull nginx
 ADD . /www
 WORKDIR /www
 RUN pip install -r requirements.txt
