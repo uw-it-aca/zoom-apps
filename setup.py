@@ -11,7 +11,7 @@ setup(
     author="UW-IT AXDD",
     author_email="aca-it@uw.edu",
     install_requires=[
-        'tornado>=6,<7']
+        'tornado>=6,<7'],
     license='Apache License, Version 2.0',
     description='zoom apps n statics',
     classifiers=[
