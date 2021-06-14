@@ -20,4 +20,5 @@ RUN mkdir /var/run/nginx && chown -R acait:acait /var/run/nginx && \
     chown -R acait:acait /var/lib/nginx && \
     chown -R acait:acait /var/log/nginx && \
     chgrp acait /etc/nginx/nginx.conf && chmod g+w /etc/nginx/nginx.conf
+ENV PORT 3000
 USER acait
